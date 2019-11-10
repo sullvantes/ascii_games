@@ -1,0 +1,25 @@
+{
+    "game_library": [
+        {
+            "name": "Voight-Kampff Replicant Detection Test",
+            "dir": "voight_kampff/"
+        },
+        {
+            "name": "Star Wars: Interrogation Station",
+            "dir": "star_wars_interrogation/"
+        },
+        {
+            "name": "The Prom Movie Mystery",
+            "dir": "prom_movie_mystery/"
+        }
+    ],
+    "common_file_names": {
+        "title": "title.txt",
+        "intro": "intro.txt",
+        "game": "game_data.json"
+    },
+    "strings": {
+        "menu_heading": "GAME LIBRARY",
+        "menu_prompt": "Select a game: "
+    }
+}

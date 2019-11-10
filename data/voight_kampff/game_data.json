@@ -1,0 +1,164 @@
+{
+    "TODO --------------------------------": "",
+    "game_type": "default",
+    "game_type-1": "simple_majority",
+    "game_type-2": "majority",
+    "game_type-3": "branching",
+    "/TODO -------------------------------": "",
+    "display_options": {
+        "colors": {
+            "default": { "fg": "green", "bg": "black" },
+            "warning": { "fg": "yellow" },
+            "error": { "fg": "red" }
+        },
+        "animation" : {
+            "title": "fade-in",
+            "fade_duration": 2.5,
+            "fps": 60,
+            "fps_slow": 10,
+            "fps_fast": 200
+        },
+        "input_reflect_pause": 0.4,
+        "drumroll_prepost_pause": 1,
+        "drumroll_pause": 2.5,
+        "result_pause": 1,
+        "text_wrap_width": 55,
+        "content_window": {
+            "margins": {
+                "x": 5,
+                "y": 2
+            }
+        }
+    },
+    "input_options": {
+        "reset_warning_time": 50,
+        "reset_time": 60 
+    },
+    "strings": {
+        "question_label": "1",
+        "answer_label": "A",
+        "input_prompt": "Your response",
+        "continue_prompt": "Press any button to continue ",
+        "restart_prompt": "Press any button for the next test subject ",
+        "prompt_mark": " > ",
+        "line_separator": "-",
+        "input_reflection": "Input detected",
+        "result_drumroll_header": "Processing collected data:",
+        "result_drumroll": [
+            [
+                "Cross-referencing",
+                "Detecting",
+                "Determining",
+                "Measuring",
+                "Testing"
+            ],
+            [
+                "advanced",
+                "distinct",
+                "emotional",
+                "empathic",
+                "iris",
+                "physiological",
+                "subcutaneous"
+            ],
+            [
+                "contractions",
+                "functions",
+                "movements",
+                "muscles",
+                "airborne particles",
+                "response times"
+            ]
+        ],
+        "result_drumroll_footer": "Computation complete.",
+        "result_message": {
+            "Android": {
+                "color": { "fg": "magenta" },
+                "pre": "I see through you, you ",
+                "post": "!!!",
+                "story": ""
+            },
+            "Robot": {
+                "color": { "fg": "red" },
+                "pre": "What a wonderful ",
+                "post": " you are!",
+                "story": ""
+            },
+            "Cyborg": {
+                "color": { "fg": "white" },
+                "pre": "Obviously...You're a ",
+                "post": "...",
+                "story": ""
+            },
+            "Human": {
+                "color": { "fg": "yellow" },
+                "pre": "You have PASSED. You are indeed ",
+                "post": ".",
+                "story": ""
+            }
+        },
+        "common_end_message": "Are you surprised by the result? How can you be certain that you are what you think you are?",
+        "timeout_warning": "Response delay detected. Test failure imminent.",
+        "err_invalid_input": "Select from one of the listed options.",
+        "err_no_input": "No response detected. Aborting..."
+    },
+    "quiz": {
+        "questions_per_session": 3,
+        "randomize": true,
+        "default_result": "Human",
+        "questions_answers": [
+            {
+                "question": "You are watching the rain through a window. \nA spider walks across the pane. You:",
+                "answers": [
+                    {
+                        "category": "Android",
+                        "text": "Say, \"This is just a dream right?\""
+                    },
+                    {
+                        "category": "Robot",
+                        "text": "Blink your eyes in awe."
+                    },
+                    {
+                        "category": "Cyborg",
+                        "text": "Smash it."
+                    }
+                ]
+            },
+            {
+                "question": "It's your birthday today. You:",
+                "answers": [
+                    {
+                        "category": "Android",
+                        "text": "Purchase a mechanical owl."
+                    },
+                    {
+                        "category": "Robot",
+                        "text": "Treat yourself to a romantic comedy."
+                    },
+                    {
+                        "category": "Cyborg",
+                        "text": "Yell, \"Your move, world!\""
+                    }
+
+                ]
+            },
+            {
+                "question": "Your friend is sick. You:",
+                "answers": [
+                    {
+                        "category": "Android",
+                        "text": "Snapchat them."
+                    },
+                    {
+                        "category": "Robot",
+                        "text": "Bring them a plant to cheer them up."
+                    },
+                    {
+                        "category": "Cyborg",
+                        "text": "Set your status to offline."
+                    }
+                ]
+            }
+        ]
+    }
+}

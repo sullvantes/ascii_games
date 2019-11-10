@@ -1,0 +1,299 @@
+{
+    "display_options": {
+        "colors": {
+            "default": { "fg": "white", "bg": "magenta" },
+            "warning": { "fg": "yellow" },
+            "error": { "fg": "white", "bg": "red" }
+        },
+        "animation": {
+            "title": "fade-in",
+            "fps" : 60,
+            "fps_slow": 10,
+            "fps_fast": 200,
+            "fade_duration": 2.5
+        },
+        "input_reflect_pause": 0.2,
+        "drumroll_prepost_pause": 1,
+        "drumroll_pause": 2.5,
+        "result_pause": 1,
+        "text_wrap_width": 55,
+        "content_window": {
+            "margins": {
+                "x": 5,
+                "y": 2
+            }
+        }
+    },
+    "input_options": {
+        "reset_warning_time": 50,
+        "reset_time": 60
+    },
+    "strings": {
+        "question_label": "1",
+        "answer_label": "A",
+        "input_prompt": "Your, like, answer",
+        "continue_prompt": "Press any button, dude or dudette! ",
+        "restart_prompt": "Press any button to reset this universe ",
+        "prompt_mark": ": ",
+        "line_separator": "-",
+        "result_drumroll_header": "Contemplating your responses:",
+        "result_drumroll": [
+            [
+                "Harshing on",
+                "Psyching out",
+                "Ralphing all over",
+                "Hurling on"
+            ],
+            [
+                "bitchin'",
+                "bodacious",
+                "bogus",
+                "choice",
+                "gnarly",
+                "grody",
+                "heinous",
+                "hella rad",
+                "lame",
+                "excellent",
+                "primo",
+                "righteous",
+                "schweet",
+                "schwing-tastic",
+                "tubular",
+                "most triumphant",
+                "wannabe"
+            ],
+            [
+                "betties",
+                "bohunks",
+                "dorks",
+                "dudes",
+                "hosers",
+                "narcs",
+                "noobs",
+                "noids",
+                "posers",
+                "wastoids"
+            ]
+        ],
+        "result_drumroll_footer": "Eureka!",
+        "result_message": {
+            "Pretty in Pink": {
+                "color": { "fg": "magenta", "bg": "black" },
+                "pre": "You're in ",
+                "post": ". This movie is so you!",
+                "story": "The lights burst, the room goes black. You blindly make MENOEUVRES IN THE DARK. The ORCHESTRAL score swells to a deafening level as a portal opens up.\n\n\"You'll be yourself again IF YOU LEAVE now. I'll always believe in you!\"\n\nTHE END"
+            },
+            "Back to the Future": {
+                "color": { "fg": "cyan" },
+                "pre": "Holy cow, this is ",
+                "post": "!",
+                "story": "Luckily, you didn't change your timeline and erase yourself or accidentally hook up with your mom.\n\nIn a burning streak of tires, you are shifted back into your own body, your own time. Maybe it was a just dream...\n\nTHE END"
+            },
+            "Napoleon Dynamite": {
+               "color": { "fg": "yellow", "bg": "red" },
+                "pre": "You're a perfect fit here in ",
+                "post": ", gosh!",
+                "story": "Kip miraculously completes his mail-order time machine just before you have to feed Tina the llama. In an impossible feat of science, you hop in and fumble the controls back to your own timeline. Sweet!\n\nTHE END"
+            },
+            "Buffy the Vampire Slayer": {
+                "color": { "fg": "red", "bg": "black" },
+                "pre": "What?! This is ",
+                "post": "!",
+                "story": "You ended up in Buffy's prom episode.\n\nAs a vampire suddenly attacks you through the window, you get sucked into a dimensional vortex and end up back in your own body. Whew, close call!\n\nTHE END"
+            },
+            "Mean Girls": {
+                "color": { "fg": "white", "bg": "red" },
+                "pre": "You're in ",
+                "post": "! Yep, totally fetch.",
+                "story": "Out of the blue a school bus slams into you. Thankfully you wake again back inside your own body, your real life.\n\nAlthough you wish you kept the tiara as a souvenir, you're relieved to have escaped those cliques.\n\nTHE END",
+                "X_story": "You could not be more relieved when you're suddenly whisked back into your own body, back to your real life, though you wish you couldn've kept a piece of the tiara as a souvenir. Suffering from flashbacks of high school cliques yet?\n\nTHE END"
+            },
+            "Not Another Teen Movie": {
+                "color": { "fg": "blue" },
+                "pre": "You belong here in ",
+                "post": "!",
+                "story": "Since you simultaneously fit and defy every teen movie stereotype, determining the movie was really difficult. How do you feel about that? Doesn't really matter now, back you go!\n\nTHE END"
+            }
+        },
+        "common_end_message": "Did you end up discovering your true self? Maybe your teenage years were more formative than you realized.",
+        "timeout_warning": "Answer before you're stuck here forever!",
+        "err_invalid_input": "Select from one of the listed options.",
+        "err_no_input": "Resetting the scene. Places!"
+    },
+    "quiz": {
+        "questions_per_session": 3,
+        "randomize": true,
+        "default_result": "Not Another Teen Movie",
+        "questions_answers": [
+            {
+                "question": "What's your bestest friend like?",
+                "answers": [
+                    {
+                        "category": "Pretty in Pink",
+                        "text": "An ugly duckling who worships me."
+                    },
+                    {
+                        "category": "Back to the Future",
+                        "text": "A crazy-haired genius."
+                    },
+                    {
+                        "category": "Napoleon Dynamite",
+                        "text": "Just as awkward as me. They deserve a vote of confidence."
+                    },
+                    {
+                        "category": "Mean Girls",
+                        "text": "I do better with animals. I just don't get humans."
+                    }
+                ]
+            },
+            {
+                "question": "The love of your life is...?",
+                "answers": [
+                    {
+                        "category": "Pretty in Pink",
+                        "text": "Part Miami Vice, part shy computer geek, 100% romantic."
+                    },
+                    {
+                        "category": "Back to the Future",
+                        "text": "My own impossibly young mother. Or at least *she* thinks so!"
+                    },
+                    {
+                        "category": "Napoleon Dynamite",
+                        "text": "Totally unaware of my feelings. Ugh, why's it so complicated? Gosh!"
+                    },
+                    {
+                        "category": "Mean Girls",
+                        "text": "Mother Nature and all of her endangered creatures."
+                    }
+                ]
+            },
+            {
+                "question": "When you're face to face with trouble, what do you do?",
+                "answers": [
+                    {
+                        "category": "Pretty in Pink",
+                        "text": "Cry a little but eventually overcome it."
+                    },
+                    {
+                        "category": "Back to the Future",
+                        "text": "Throw a sucker punch and run away."
+                    },
+                    {
+                        "category": "Napoleon Dynamite",
+                        "text": "Have my grandma fight for me. She's a rebel."
+                    },
+                    {
+                        "category": "Mean Girls",
+                        "text": "Level-headedly formulate a plan and solve it."
+                    }
+                ]
+            },
+            {
+                "question": "What do you say when something is really good?",
+                "answers": [
+                    {
+                        "category": "Pretty in Pink",
+                        "text": "Hot. White hot."
+                    },
+                    {
+                        "category": "Back to the Future",
+                        "text": "An absolute dream!"
+                    },
+                    {
+                        "category": "Napoleon Dynamite",
+                        "text": "Sweeeet!"
+                    },
+                    {
+                        "category": "Mean Girls",
+                        "text": "So fetch."
+                    }
+                ]
+            },
+            {
+                "question": "You keep your friends close, and your enemies...",
+                "answers": [
+                    {
+                        "category": "Pretty in Pink",
+                        "text": "At arm's length with your incisive retorts. You cut deep."
+                    },
+                    {
+                        "category": "Back to the Future",
+                        "text": "Buried under a load of manure. Now everyone can laugh at them."
+                    },
+                    {
+                        "category": "Napoleon Dynamite",
+                        "text": "Defeated by your strength of a grizzly, the reflexes of a puma, and the wisdom of a man."
+                    },
+                    {
+                        "category": "Mean Girls",
+                        "text": "Splattered against the blunt, business end of a speeding bus."
+                    }
+                ]
+            },
+            {
+                "question": "What does high school represent to you?",
+                "answers": [
+                    {
+                        "category": "Pretty in Pink",
+                        "text": "Battle grounds for midwestern class warfare."
+                    },
+                    {
+                        "category": "Back to the Future",
+                        "text": "A quaint, rosy vision of a time past."
+                    },
+                    {
+                        "category": "Napoleon Dynamite",
+                        "text": "The apex of my potential. I am a legend (in my own mind)."
+                    },
+                    {
+                        "category": "Mean Girls",
+                        "text": "The wild African savannas. You have to claw your way to the top."
+                    }
+                ]
+            },
+            {
+                "question": "What's the car of your dreams?",
+                "answers": [
+                    {
+                        "category": "Pretty in Pink",
+                        "text": "A thrify but unique Volkswagen Karmann-Ghia Coupe."
+                    },
+                    {
+                        "category": "Back to the Future",
+                        "text": "A tricked out DMC with gull-wing doors, custom electronics, and modified fuel."
+                    },
+                    {
+                        "category": "Napoleon Dynamite",
+                        "text": "My best friend's cousin's sweet, sweet lowrider."
+                    },
+                    {
+                        "category": "Mean Girls",
+                        "text": "I'd rather not pollute, but if I had to pick one, a Prius."
+                    }
+                ]
+            },
+            {
+                "question": "What are you wearing to the big dance?",
+                "answers": [
+                    {
+                        "category": "Pretty in Pink",
+                        "text": "A one of a kind, hand-upcycled, vintage piece that says, \"Accept me for who I am.\""
+                    },
+                    {
+                        "category": "Back to the Future",
+                        "text": "Think rock & roll meets business casual."
+                    },
+                    {
+                        "category": "Napoleon Dynamite",
+                        "text": "A thrift shop find in multiple shades of burnt umber and powder blue. Snazzy."
+                    },
+                    {
+                        "category": "Mean Girls",
+                        "text": "Mathlete-flavored varsity-couture with an air of \"Who, me?\""
+                    }
+                ]
+            }
+        ]
+    }
+}

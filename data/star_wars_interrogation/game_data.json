@@ -1,0 +1,338 @@
+{
+    "display_options": {
+        "colors": {
+            "default": { "fg": "black", "bg": "white" },
+            "warning": { "fg": "red" },
+            "error": { "fg": "white", "bg": "red" }
+        },
+        "animation": {
+            "title": "fade-in",
+            "fps": 60,
+            "fps_slow": 10,
+            "fps_fast": 200,
+            "fade_duration": 2.5
+        },
+        "input_reflect_pause": 0.2,
+        "drumroll_prepost_pause": 1,
+        "drumroll_pause": 2.5,
+        "result_pause": 1,
+        "text_wrap_width": 55,
+        "content_window": {
+            "margins": { "x": 5, "y": 2 }
+        }
+    },
+    "input_options": {
+        "reset_time": 30,
+        "reset_warning_time": 22
+    },
+    "strings": {
+        "question_label": "1",
+        "answer_label": "A",
+        "input_prompt": "Your response",
+        "continue_prompt": "Force-press any button to continue ",
+        "restart_prompt": "Force-press any button when finished ",
+        "prompt_mark": ": ",
+        "line_separator": "-",
+        "result_drumroll_header": "Assessing your responses:",
+        "result_drumroll": [
+            [
+                "Deploying",
+                "Exploding",
+                "Extracting",
+                "Constructing",
+                "Disintegrating",
+                "Disrupting",
+                "Establishing",
+                "Generating",
+                "Identifying",
+                "Intensifying",
+                "Jamming",
+                "Mining",
+                "Phasing",
+                "Polarizing",
+                "Pressurizing",
+                "Reconstructing",
+                "Scanvenging",
+                "Shielding",
+                "Shutting down",
+                "Supramolecularizing",
+                "Terraforming",
+                "Tethering"
+            ],
+            [
+                "reticulated",
+                "abandoned",
+                "auditory",
+                "brain-wave",
+                "electro",
+                "floppy",
+                "geological",
+                "gravitational",
+                "handheld",
+                "helical",
+                "high-resolution",
+                "holographic",
+                "magnetic",
+                "operational",
+                "phototropic",
+                "portable",
+                "protobactin",
+                "self-aware",
+                "semi-automated",
+                "solid-state",
+                "subspace",
+                "thermal",
+                "ultrawave"
+            ],
+            [
+                "piles of bantha fodder",
+                "slabs of carbonite",
+                "clankers",
+                "dampeners",
+                "deflector shields",
+                "display trajectories",
+                "droid protocols",
+                "exhaust ports",
+                "field plates",
+                "garbage hatches",
+                "ion engines",
+                "interface modules",
+                "macrobinoculars",
+                "moonlets",
+                "nanosporoids",
+                "projectors",
+                "ram-tractors",
+                "repulsion coils",
+                "scent synthesizers",
+                "sprogs",
+                "turbo darts",
+                "vectors",
+                "womp rats"
+            ]
+        ],
+        "result_drumroll_footer": "Assessment complete.",
+        "X_result_pre": "What?! You are a . . . ",
+        "X_result_post": "!",
+        "X_result_end_message": {
+            "Jedi": "With the help of a disguised rebel droid and the hidden lightsaber it launched in your direction, you slice and parry your way to freedom in a fury of ricocheted blaster bolts and an unsecured escape pod.",
+            "Sith": "Fed up with this nonsense, you unexpectedly snap your restraints, Force-repel the interrogators and guards, and slow-strut to freedom as a slo-mo fountain of sparks spray behind you.",
+            "Politician": "You are somehow able to drone on and on about the details of the history of trade negotiations until the interrogators give up and swiftly jettison you toward the nearest habitable planet. Freedom! Of sorts.",
+            "Bounty Hunter": "No amount of excruciating pain the interrogator droid inflicts is enough to extract information from you. You are unbreakable until the very end. Other prisoners trade stories of your final stand in hushed tones. You never removed your Mandalorian helmet.",
+            "daydreaming moisture farmer": "Seeing you as no threat, they let you return to your family farm to play with womp rats and dewbacks. As your memory comes rushing back, you suddenly miss knocking back cold, refreshing glasses of blue milk."
+        },
+        "result_message": {
+            "Jedi": {
+                "color": { "fg": "white", "bg": "blue" },
+                "pre": "\"Alert the guards! This one is a . . . ",
+                "post": "!\"",
+                "story": "You and the interrogator simultaneously come to the same realization.\n\nWith the help of a disguised rebel droid and the hidden lightsaber it launches in your direction, you slice and parry your way to freedom in a fury of ricocheted blaster bolts and an unsecured escape pod.\n\nTHE END"
+            },
+            "Sith": {
+                "color": { "fg": "white", "bg": "red" },
+                "pre": "\"What?! You are a . . . ",
+                "post": "!\"",
+                "story": "As the words escape the interrogator's lips, your memory comes flooding back. Fed up with this nonsense, you burst out of your restraints, Force-repel the interrogators and guards, and slow-strut to freedom as slo-mo fountains of sparks spray behind you.\n\nTHE END"
+            },
+            "Politician": {
+                "Xcolor": { "fg": "white", "bg": "magenta" },
+                "color": { "fg": "white" },
+                "pre": "\"You wiley ",
+                "post": "!\"",
+                "story": "Even with impaired memory, you drone on and on about the details of the history of trade negotiations until the interrogator gives up and swiftly jettisons you toward the nearest habitable planet.\n\nFreedom?\n\nTHE END"
+            },
+            "Bounty Hunter": {
+                "color": { "fg": "white", "bg": "cyan" },
+                "pre": "\"A ",
+                "post": "!\" yells the interrogator.",
+                "story": "You are unbreakable until the very end. Other prisoners trade stories of your final stand in hushed tones. You wear your Mandalorian helmet with pride.\n\nTHE END"
+            },
+            "daydreaming moisture farmer": {
+                "color": { "fg": "white", "bg": "yellow" },
+                "pre": "\"Stop wasting my time. Get this ",
+                "post": " out of my sight!\"",
+                "story": "Seeing you as insignificant, the interrogator lets you return to your family farm to play with womp rats and dewbacks. As your memory comes rushing back, you suddenly miss knocking back cold, refreshing glasses of blue milk.\n\nTHE END"
+            }
+        },
+        "X_common_end_message": "Did you discover yourself under duress? Or did you provide a phantom narrative to cover your mysterious tracks?\n\nWhichever path you chose, you may now live out your life in your truth.",
+        "common_end_message": "Did you discover your true self under duress? Or did you provide a phantom narrative to cover your tracks?",
+        "timeout_warning": "Hurry, you are about to pass out from the pain!",
+        "err_invalid_input": "Select from one of the listed options.",
+        "err_no_input": "Subject unconscious. Restarting interrogation."
+    },
+    "quiz": {
+        "questions_per_session": 3,
+        "randomize": true,
+        "default_result": "daydreaming moisture farmer",
+        "questions_answers": [
+            {
+                "question": "Always two of you there are, yes?",
+                "answers": [
+                    {
+                        "category": "Jedi",
+                        "text": "Many Force spirits keep me close company, although some keep changing faces."
+                    },
+                    {
+                        "category": "Sith",
+                        "text": "Soon there will be one fewer of YOU!"
+                    },
+                    {
+                        "category": "Politician",
+                        "text": "I am part of an overstuffed committee that builds concensus."
+                    },
+                    {
+                        "category": "Bounty Hunter",
+                        "text": "I work alone. No partners, no backstabbing."
+                    }
+                ]
+            },
+            {
+                "question": "You unsheathe your lightsaber. What color is it?",
+                "answers": [
+                    {
+                        "category": "Jedi",
+                        "text": "A valiant beam of blue. My feelings tell me I built it with my own hands."
+                    },
+                    {
+                        "category": "Sith",
+                        "text": "Bright and red, like the spilled blood of my fallen enemies."
+                    },
+                    {
+                        "category": "Politician",
+                        "text": "The mightier pen is my weapon of choice."
+                    },
+                    {
+                        "category": "Bounty Hunter",
+                        "text": "Depends on the one I last \"liberated.\""
+                    }
+                ]
+            },
+            {
+                "question": "What do you feel after losing a loved one?",
+                "answers": [
+                    {
+                        "category": "Jedi",
+                        "text": "Sense them still guiding me, I can."
+                    },
+                    {
+                        "category": "Sith",
+                        "text": "I conspire to resurrect them. I vow to never lose another."
+                    },
+                    {
+                        "category": "Politician",
+                        "text": "My grief allows me to connect with my constituents."
+                    },
+                    {
+                        "category": "Bounty Hunter",
+                        "text": "Depends. Is there profit to be had?"
+                    }
+                ]
+            },
+            {
+                "question": "You are on the edge of a Sarlacc pit. What do you do?",
+                "answers": [
+                    {
+                        "category": "Jedi",
+                        "text": "Hand me a plank, I'll show you."
+                    },
+                    {
+                        "category": "Sith",
+                        "text": "Wrangle it into eternal servitude."
+                    },
+                    {
+                        "category": "Politician",
+                        "text": "I begin legislating voting rights for its kind."
+                    },
+                    {
+                        "category": "Bounty Hunter",
+                        "text": "Can't wait to fall into it. Again."
+                    }
+                ]
+            },
+            {
+                "question": "You see a rogue princess in trouble. Your move?",
+                "answers": [
+                    {
+                        "category": "Jedi",
+                        "text": "Pledge my undying loyalty and protection. I may be her only hope."
+                    },
+                    {
+                        "category": "Sith",
+                        "text": "Command my subordinates, \"Bring her to me!\""
+                    },
+                    {
+                        "category": "Politician",
+                        "text": "Suggest that she recuse, I mean, rescue herself."
+                    },
+                    {
+                        "category": "Bounty Hunter",
+                        "text": "What would she be doing in a place like this?"
+                    }
+                ]
+            },
+            {
+                "question": "There is a fight breaking out. How do you react?",
+                "answers": [
+                    {
+                        "category": "Jedi",
+                        "text": "Get involved. Break it up and protect the weak."
+                    },
+                    {
+                        "category": "Sith",
+                        "text": "Flame the conflict further. Hate runs deep within them.",
+                        "text_X": "Mortal concerns are beneath me."
+                    },
+                    {
+                        "category": "Politician",
+                        "text": "Negotiate a peace treaty between them."
+                    },
+                    {
+                        "category": "Bounty Hunter",
+                        "text": "Are any of them on the wanted list?"
+                    }
+                ]
+            },
+            {
+                "question": "Where would you take respite from the toils of war?",
+                "answers": [
+                    {
+                        "category": "Jedi",
+                        "text": "Somewhere doubly-sunny and sandy. Perhaps near a moisture farm."
+                    },
+                    {
+                        "category": "Sith",
+                        "text": "I enjoy a steamy lava bath now and then. If only there were such a planet."
+                    },
+                    {
+                        "category": "Politician",
+                        "text": "During campaigning, I make time for the magnificent sights of Naboo."
+                    },
+                    {
+                        "category": "Bounty Hunter",
+                        "text": "Resting only makes you weak and vulnerable."
+                    }
+                ]
+            },
+            {
+                "question": "How do you handle being gravely injured in a lightsaber duel?",
+                "answers": [
+                    {
+                        "category": "Jedi",
+                        "text": "Vanish into a pile of abandoned clothing."
+                    },
+                    {
+                        "category": "Sith",
+                        "text": "Replace my severed torso with robotic spider legs."
+                    },
+                    {
+                        "category": "Politician",
+                        "text": "Perish. Regret my failures as a public servant. Not in that order."
+                    },
+                    {
+                        "category": "Bounty Hunter",
+                        "text": "Rush to upgrade my Guild medical coverage."
+                    }
+                ]
+            }
+        ]
+    }
+}
